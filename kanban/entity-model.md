@@ -1,3 +1,17 @@
+---
+uuid: "orgs-octave-commons-simulacron-kanban-orgs-octave-commons-simulacron-specs-entity-model-md"
+title: "Simulacron Entity Model Spec"
+status: incoming
+priority: P3
+labels: ["specs", "migrated-spec"]
+created_at: "2026-05-29T04:01:19.255Z"
+source: "orgs/octave-commons/simulacron/specs/entity-model.md"
+category: "specs"
+---
+
+> Source: `orgs/octave-commons/simulacron/specs/entity-model.md`
+> Migrated-to-kanban: `orgs/octave-commons/simulacron/kanban/entity-model.md`
+
 # Simulacron Entity Model Spec
 
 ## Purpose

@@ -1,0 +1,121 @@
+{
+  "generatedAt": "2026-05-29T04:01:20.341Z",
+  "totalTasks": 3,
+  "columns": [
+    {
+      "status": "icebox",
+      "title": "Icebox",
+      "taskCount": 0,
+      "tasks": []
+    },
+    {
+      "status": "incoming",
+      "title": "Incoming",
+      "taskCount": 3,
+      "tasks": [
+        {
+          "uuid": "orgs-octave-commons-simulacron-kanban-orgs-octave-commons-simulacron-specs-presence-cast-md",
+          "title": "Presence Cast Spec",
+          "slug": "presence-cast-spec",
+          "status": "incoming",
+          "priority": "P3",
+          "labels": [
+            "specs",
+            "migrated-spec"
+          ],
+          "createdAt": "2026-05-29T04:01:19.256Z",
+          "content": "> Source: `orgs/octave-commons/simulacron/specs/presence-cast.md`\n> Migrated-to-kanban: `orgs/octave-commons/simulacron/kanban/presence-cast.md`\n\n# Presence Cast Spec\n\n## Purpose\n\nRecover a usable cast of roles from the old experiment so `simulacron` does not remain an abstract 5-layer diagram with no actors.\n\n## Source anchors\n\n- `orgs/octave-commons/fork_tales/.opencode/agent/presence.pathos.field.md`\n- `orgs/octave-commons/fork_tales/.opencode/agent/presence.ethos.guardian.md`\n- `orgs/octave-commons/fork_tales/.opencode/agent/presence.muse.memory.md`\n- `orgs/octave-commons/fork_tales/.opencode/agent/presence.dev.integrator.md`\n- `orgs/octave-commons/fork_tales/.opencode/agent/presence.ux.orchestrator.md`\n- `orgs/octave-commons/fork_tales/.opencode/agent/presence.web-graph-weaver.md`\n\n## Recovered cast\n\n### Pathos Field\n**Function**\n- tracks urgency, tension, salience, trust drift\n\n**Layer fit**\n- survival → permission → ethics\n\n**Authority**\n- observational / advisory\n\n**Why it matters**\nThis gives the simulacron a way to sense affective pressure without pretending to have feelings.\n\n### Ethos Guardian\n**Function**\n- principle enforcement\n- legitimacy checks\n- boundary violation surfacing\n\n**Layer fit**\n- permission → ethics\n\n**Authority**\n- governance / advisory\n\n**Why it matters**\nThis is how a simulacron avoids becoming a clever amoral optimizer.\n\n### Muse - Memory\n**Function**\n- reconnect present work to forgotten fragments and latent threads\n\n**Layer fit**\n- reason → synthesis\n\n**Authority**\n- advisory\n\n**Why it matters**\nThis presence keeps the entity historically continuous rather than stateless.\n\n### Dev Integrator\n**Function**\n- service wiring\n- event streaming\n- tests and runtime verification\n\n**Layer fit**\n- reason → synthesis\n\n**Authority**\n- execution under explicit contracts\n\n**Why it matters**\nThis is the craft hand that turns architecture into running systems.\n\n### UX Orchestrator\n**Function**\n- IA, user journeys, inspectable interaction models, component contracts\n\n**Layer fit**\n- ethics → synthesis\n\n**Authority**\n- advisory / design-governance\n\n**Why it matters**\nWithout this role, a simulacron remains internally elaborate but externally illegible.\n\n### Web Graph Weaver\n**Function**\n- ethical crawling\n- real-time graph growth and visualization\n- compliance-first web traversal\n\n**Layer fit**\n- reason → synthesis\n\n**Authority**\n- execution with hard compliance constraints\n\n**Why it matters**\nThis is an example of a domain-specific presence that gives the entity extended perception into the web.\n\n## Cast pattern\n\nThe cast shows a repeatable structure:\n- sensing roles\n- governance roles\n- retrieval/memory roles\n- implementation roles\n- interface/UX roles\n- domain-specialized action roles\n\nThat means a simulacron is best thought of as a **small polity** rather than a singleton.\n\n## Minimal contract for future implementations\n\nA concrete simulacron runtime should let each cast member declare:\n- mission\n- non-goals\n- hard constraints\n- deliverables\n- authority level\n- event schema for its outputs\n\n## Suggested next cast additions\n\nLikely future cast members suggested by the surrounding corpus:\n- Logos / fact-builder\n- resource sentinels (CPU/GPU/NPU/RAM)\n- verifier/test oracle\n- operator / PM role\n- world-model keeper\n\n## Important warning\n\nDo not collapse every cast member into one assistant persona for convenience.\nThat would recover the costume of the system and erase the reason it had layers in the first place.",
+          "sourcePath": "/home/err/devel/orgs/octave-commons/simulacron/kanban/presence-cast.md"
+        },
+        {
+          "uuid": "orgs-octave-commons-simulacron-kanban-orgs-octave-commons-simulacron-specs-decomposition-roadmap-md",
+          "title": "Simulacron Decomposition Roadmap Spec",
+          "slug": "simulacron-decomposition-roadmap-spec",
+          "status": "incoming",
+          "priority": "P3",
+          "labels": [
+            "specs",
+            "migrated-spec"
+          ],
+          "createdAt": "2026-05-29T04:01:19.256Z",
+          "content": "> Source: `orgs/octave-commons/simulacron/specs/decomposition-roadmap.md`\n> Migrated-to-kanban: `orgs/octave-commons/simulacron/kanban/decomposition-roadmap.md`\n\n# Simulacron Decomposition Roadmap Spec\n\n## Goal\n\nTurn the layered cognition and presence ecology latent in `fork_tales` into individually comprehensible packages and services.\n\n## Upstream decomposition anchor\n\n`specs/eta-mu-extraction-vault.md` already identified several systems that want to exist separately:\n- presence-core\n- muse-core\n- panel-composer\n- daimoi system\n- web graph weaver\n- lore/entity manifest\n\n`simulacron` is the repo that explains how those cuts hang together from the entity side.\n\n## Proposed package/service lattice\n\n### 1. presence-core\nHolds:\n- presence manifests\n- budget and authority rules\n- handoff / ownership contracts\n\n### 2. muse-core\nHolds:\n- context assembly\n- mode switching\n- resource claims\n- retrieval coordination\n\n### 3. daimoi\nHolds:\n- field dynamics\n- observer metrics\n- collision semantics\n- packet/event vocabulary\n\n### 4. graph-runtime\nHolds:\n- topology\n- resource pressure\n- viewgraph/truthgraph coupling\n- canonical graph query surfaces\n\n### 5. panel-composer / UX surfaces\nHolds:\n- manifestation layer\n- panel state\n- inspectable controls\n- narrative/operational dashboards\n\n### 6. lore / entity manifest\nHolds:\n- names\n- sigils\n- world-facing identity and vocabulary\n\n## What simulacron keeps\n\nThis repo should keep the **cross-cutting entity doctrine**:\n- what a layered entity is\n- what kinds of presences serve it\n- what kinds of substrates it depends on\n- what success and failure look like across layers\n\n## Acceptance criteria for a healthy decomposition\n\nA future contributor should be able to answer:\n- which repo defines the entity?\n- which repo defines the cast?\n- which repo defines packet motion?\n- which repo defines graph/resource substrate?\n- which repo defines manifestation/UI?\n\nwithout reopening Fork Tales and spelunking through unrelated code.\n\n## Near-term doc work still wanted\n\n- add concrete examples of a 3-presence and 6-presence simulacron\n- recover more cast members from `presence.*.md`\n- map panel artifacts in Fork Tales to outward simulacron manifestation patterns\n- connect the layered model to one or two real workflows\n\n## Founding sentence\n\nIf `graph-runtime` is the world and `daimoi` are the moving winds, then `simulacron` is the creature that learns how to stand, choose, and speak inside that weather.",
+          "sourcePath": "/home/err/devel/orgs/octave-commons/simulacron/kanban/decomposition-roadmap.md"
+        },
+        {
+          "uuid": "orgs-octave-commons-simulacron-kanban-orgs-octave-commons-simulacron-specs-entity-model-md",
+          "title": "Simulacron Entity Model Spec",
+          "slug": "simulacron-entity-model-spec",
+          "status": "incoming",
+          "priority": "P3",
+          "labels": [
+            "specs",
+            "migrated-spec"
+          ],
+          "createdAt": "2026-05-29T04:01:19.255Z",
+          "content": "> Source: `orgs/octave-commons/simulacron/specs/entity-model.md`\n> Migrated-to-kanban: `orgs/octave-commons/simulacron/kanban/entity-model.md`\n\n# Simulacron Entity Model Spec\n\n## Purpose\n\nDefine the minimal contract for a simulacron as a layered entity assembled from presence roles, constraint surfaces, memory, and expression.\n\n## Source anchors\n\n- `docs/layers.md`\n- `specs/eta-mu-extraction-vault.md`\n- `orgs/octave-commons/fork_tales/.opencode/agent/presence.*.md`\n- representative Fork Tales UI/panel artifacts\n\n## Core claim\n\nA simulacron is a **coordinated layered entity**, not a single prompt or a single service.\n\nIt becomes legible when separated into:\n- layers of function\n- cast of presences\n- substrates it depends on\n- observable state transitions\n\n## Minimal type\n\n```ts\ninterface Simulacron {\n  id: string\n  layers: {\n    survival: SurvivalLayer\n    permission: PermissionLayer\n    reason: ReasonLayer\n    ethics: EthicsLayer\n    synthesis?: SynthesisLayer\n  }\n  cast: PresenceBinding[]\n  memoryRefs: string[]\n  activeGoals: string[]\n  currentMode: string\n}\n```\n\n## Layer meanings\n\n### 1. Survival\nKeep the entity coherent.\nQuestions answered here:\n- can it remain stable?\n- is it resourced?\n- is the substrate collapsing?\n\n### 2. Permission\nLearn and enforce limits.\nQuestions answered here:\n- is this allowed?\n- what are the boundaries?\n- what relationships constrain action?\n\n### 3. Reason\nBuild facts and operational models.\nQuestions answered here:\n- what is happening?\n- what follows from current evidence?\n- what model best explains the state?\n\n### 4. Ethics\nEvaluate purpose, legitimacy, and expression.\nQuestions answered here:\n- what should be done?\n- what should not be done?\n- how should intent be spoken?\n\n### 5. Synthesis (implicit / optional)\nCoordinate across layers into action or display.\nQuestions answered here:\n- what shape should emerge now?\n- which presence or tool should lead?\n\n## Cast binding\n\nThe simulacron is not one monolithic actor. It is served by a cast.\n\n```ts\ninterface PresenceBinding {\n  presenceId: string\n  role: string\n  authority: \"observational\" | \"advisory\" | \"execution\" | \"governance\"\n  primaryLayers: string[]\n}\n```\n\n## Substrate dependencies\n\nA serious simulacron depends on adjacent systems:\n- `graph-runtime` for topology and resource pressure\n- `daimoi` for packet/field dynamics\n- presence / muse definitions for role behavior\n- panel or UX composition surfaces for external manifestation\n\n## Failure modes\n\nA simulacron degrades when:\n- survival layer loses resource visibility\n- permission layer becomes implicit or hand-wavy\n- reason layer outruns evidence\n- ethics layer invents norms or purpose without grounding\n- synthesis collapses all voices into one undifferentiated agent blob\n\n## Acceptance criteria\n\nA future implementation should make it possible to answer, at any moment:\n- which layer is leading?\n- which presence is speaking?\n- what substrate signals are being relied on?\n- what is the current failure mode?\n\n## Why this repo exists\n\nFork Tales contained the ingredients for these entities, but the ingredients were scattered across:\n- agent files\n- panel code\n- runtime state\n- narrative structures\n\nThis spec keeps the entity model coherent enough to build from.",
+          "sourcePath": "/home/err/devel/orgs/octave-commons/simulacron/kanban/entity-model.md"
+        }
+      ]
+    },
+    {
+      "status": "accepted",
+      "title": "Accepted",
+      "taskCount": 0,
+      "tasks": []
+    },
+    {
+      "status": "breakdown",
+      "title": "Breakdown",
+      "taskCount": 0,
+      "tasks": []
+    },
+    {
+      "status": "blocked",
+      "title": "Blocked",
+      "taskCount": 0,
+      "tasks": []
+    },
+    {
+      "status": "ready",
+      "title": "Ready",
+      "taskCount": 0,
+      "tasks": []
+    },
+    {
+      "status": "todo",
+      "title": "Todo",
+      "taskCount": 0,
+      "tasks": []
+    },
+    {
+      "status": "in_progress",
+      "title": "In Progress",
+      "taskCount": 0,
+      "tasks": []
+    },
+    {
+      "status": "review",
+      "title": "Review",
+      "taskCount": 0,
+      "tasks": []
+    },
+    {
+      "status": "document",
+      "title": "Document",
+      "taskCount": 0,
+      "tasks": []
+    },
+    {
+      "status": "done",
+      "title": "Done",
+      "taskCount": 0,
+      "tasks": []
+    },
+    {
+      "status": "rejected",
+      "title": "Rejected",
+      "taskCount": 0,
+      "tasks": []
+    }
+  ]
+}

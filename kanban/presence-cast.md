@@ -1,3 +1,17 @@
+---
+uuid: "orgs-octave-commons-simulacron-kanban-orgs-octave-commons-simulacron-specs-presence-cast-md"
+title: "Presence Cast Spec"
+status: incoming
+priority: P3
+labels: ["specs", "migrated-spec"]
+created_at: "2026-05-29T04:01:19.256Z"
+source: "orgs/octave-commons/simulacron/specs/presence-cast.md"
+category: "specs"
+---
+
+> Source: `orgs/octave-commons/simulacron/specs/presence-cast.md`
+> Migrated-to-kanban: `orgs/octave-commons/simulacron/kanban/presence-cast.md`
+
 # Presence Cast Spec
 
 ## Purpose
