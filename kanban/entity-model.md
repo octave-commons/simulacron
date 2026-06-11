@@ -1,7 +1,7 @@
 ---
 uuid: "orgs-octave-commons-simulacron-kanban-orgs-octave-commons-simulacron-specs-entity-model-md"
 title: "Simulacron Entity Model Spec"
-status: incoming
+status: accepted
 priority: P3
 labels: ["specs", "migrated-spec"]
 created_at: "2026-05-29T04:01:19.255Z"
