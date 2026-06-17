@@ -7,9 +7,9 @@ This repo is the concept dossier for the **entity / layer / cast** side of the F
 1. `layers.md` — the compressed layer model
 2. `FORK_TALES_SOURCE_MAP.md` — where the concept came from upstream
 3. `OPENCODE_SESSION_PROVENANCE.md` — session trail and later note recovery
-4. `../specs/entity-model.md` — minimal simulacron contract
-5. `../specs/presence-cast.md` — recovered cast of roles and functions
-6. `../specs/decomposition-roadmap.md` — how simulacron ideas become services or packages
+4. `../kanban/entity-model.md` — minimal simulacron contract
+5. `../kanban/presence-cast.md` — recovered cast of roles and functions
+6. `../kanban/decomposition-roadmap.md` — how simulacron ideas become services or packages
 
 ## What a simulacron is here
 

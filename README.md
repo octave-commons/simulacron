@@ -8,9 +8,9 @@ Design notes for **Simulacron** layered cognition and presence architecture.
 2. `docs/layers.md` — layered model of survival, permission, reason, ethics, and synthesis
 3. `docs/FORK_TALES_SOURCE_MAP.md` — how the concept condenses multiple `fork_tales` strata
 4. `docs/OPENCODE_SESSION_PROVENANCE.md` — session artifacts that preserved the layered-ontology thread
-5. `specs/entity-model.md` — minimal simulacron contract
-6. `specs/presence-cast.md` — recovered cast of roles from Fork Tales presence artifacts
-7. `specs/decomposition-roadmap.md` — path from concept dossier to package/service lattice
+5. `kanban/entity-model.md` — minimal simulacron contract
+6. `kanban/presence-cast.md` — recovered cast of roles from Fork Tales presence artifacts
+7. `kanban/decomposition-roadmap.md` — path from concept dossier to package/service lattice
 
 ## Status
 
